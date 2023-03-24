@@ -15,6 +15,8 @@
 		779F125229CD24F300215B2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 779F125029CD24F300215B2A /* LaunchScreen.storyboard */; };
 		77D994E129CD261B002EA1BC /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D994E029CD261B002EA1BC /* Pizza.swift */; };
 		77D994E329CD26B9002EA1BC /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D994E229CD26B9002EA1BC /* Request.swift */; };
+		77D994E629CD29E0002EA1BC /* MyCustomXIB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D994E429CD29E0002EA1BC /* MyCustomXIB.swift */; };
+		77D994E729CD29E0002EA1BC /* MyCustomXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77D994E529CD29E0002EA1BC /* MyCustomXIB.xib */; };
 		AD5E84EAEB8D98B05C0E30D1 /* Pods_ProjectClosureThree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 251CE6F1214232FB87295FDA /* Pods_ProjectClosureThree.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +33,8 @@
 		779F125329CD24F300215B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77D994E029CD261B002EA1BC /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 		77D994E229CD26B9002EA1BC /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		77D994E429CD29E0002EA1BC /* MyCustomXIB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomXIB.swift; sourceTree = "<group>"; };
+		77D994E529CD29E0002EA1BC /* MyCustomXIB.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCustomXIB.xib; sourceTree = "<group>"; };
 		C6AAF6482CD740E3C77CF32A /* Pods-ProjectClosureThree.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectClosureThree.debug.xcconfig"; path = "Target Support Files/Pods-ProjectClosureThree/Pods-ProjectClosureThree.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +84,8 @@
 				77D994E029CD261B002EA1BC /* Pizza.swift */,
 				77D994E229CD26B9002EA1BC /* Request.swift */,
 				779F124929CD24F200215B2A /* ViewController.swift */,
+				77D994E429CD29E0002EA1BC /* MyCustomXIB.swift */,
+				77D994E529CD29E0002EA1BC /* MyCustomXIB.xib */,
 				779F124B29CD24F200215B2A /* Main.storyboard */,
 				779F124E29CD24F300215B2A /* Assets.xcassets */,
 				779F125029CD24F300215B2A /* LaunchScreen.storyboard */,
@@ -156,6 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77D994E729CD29E0002EA1BC /* MyCustomXIB.xib in Resources */,
 				779F125229CD24F300215B2A /* LaunchScreen.storyboard in Resources */,
 				779F124F29CD24F300215B2A /* Assets.xcassets in Resources */,
 				779F124D29CD24F200215B2A /* Main.storyboard in Resources */,
@@ -215,6 +222,7 @@
 				779F124A29CD24F200215B2A /* ViewController.swift in Sources */,
 				77D994E329CD26B9002EA1BC /* Request.swift in Sources */,
 				779F124629CD24F200215B2A /* AppDelegate.swift in Sources */,
+				77D994E629CD29E0002EA1BC /* MyCustomXIB.swift in Sources */,
 				779F124829CD24F200215B2A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
