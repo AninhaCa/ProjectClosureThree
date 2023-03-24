@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,13 @@
 		779F124D29CD24F200215B2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 779F124B29CD24F200215B2A /* Main.storyboard */; };
 		779F124F29CD24F300215B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 779F124E29CD24F300215B2A /* Assets.xcassets */; };
 		779F125229CD24F300215B2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 779F125029CD24F300215B2A /* LaunchScreen.storyboard */; };
+		77D994E129CD261B002EA1BC /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D994E029CD261B002EA1BC /* Pizza.swift */; };
+		AD5E84EAEB8D98B05C0E30D1 /* Pods_ProjectClosureThree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 251CE6F1214232FB87295FDA /* Pods_ProjectClosureThree.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		251CE6F1214232FB87295FDA /* Pods_ProjectClosureThree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectClosureThree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48EF717F96C5623375D5C7D6 /* Pods-ProjectClosureThree.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectClosureThree.release.xcconfig"; path = "Target Support Files/Pods-ProjectClosureThree/Pods-ProjectClosureThree.release.xcconfig"; sourceTree = "<group>"; };
 		779F124229CD24F200215B2A /* ProjectClosureThree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectClosureThree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		779F124529CD24F200215B2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		779F124729CD24F200215B2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		779F124E29CD24F300215B2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		779F125129CD24F300215B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		779F125329CD24F300215B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77D994E029CD261B002EA1BC /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		C6AAF6482CD740E3C77CF32A /* Pods-ProjectClosureThree.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectClosureThree.debug.xcconfig"; path = "Target Support Files/Pods-ProjectClosureThree/Pods-ProjectClosureThree.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD5E84EAEB8D98B05C0E30D1 /* Pods_ProjectClosureThree.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		006C0775F2D9B527F0B60470 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				251CE6F1214232FB87295FDA /* Pods_ProjectClosureThree.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		779F123929CD24F200215B2A = {
 			isa = PBXGroup;
 			children = (
 				779F124429CD24F200215B2A /* ProjectClosureThree */,
 				779F124329CD24F200215B2A /* Products */,
+				7A561F5D86C1629362AC2F2D /* Pods */,
+				006C0775F2D9B527F0B60470 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +75,7 @@
 			children = (
 				779F124529CD24F200215B2A /* AppDelegate.swift */,
 				779F124729CD24F200215B2A /* SceneDelegate.swift */,
+				77D994E029CD261B002EA1BC /* Pizza.swift */,
 				779F124929CD24F200215B2A /* ViewController.swift */,
 				779F124B29CD24F200215B2A /* Main.storyboard */,
 				779F124E29CD24F300215B2A /* Assets.xcassets */,
@@ -67,6 +85,15 @@
 			path = ProjectClosureThree;
 			sourceTree = "<group>";
 		};
+		7A561F5D86C1629362AC2F2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6AAF6482CD740E3C77CF32A /* Pods-ProjectClosureThree.debug.xcconfig */,
+				48EF717F96C5623375D5C7D6 /* Pods-ProjectClosureThree.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 779F125629CD24F300215B2A /* Build configuration list for PBXNativeTarget "ProjectClosureThree" */;
 			buildPhases = (
+				E5B383EFD328F4E566D100CB /* [CP] Check Pods Manifest.lock */,
 				779F123E29CD24F200215B2A /* Sources */,
 				779F123F29CD24F200215B2A /* Frameworks */,
 				779F124029CD24F200215B2A /* Resources */,
+				7C3C9A45258DC97946B208FA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,11 +161,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7C3C9A45258DC97946B208FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProjectClosureThree/Pods-ProjectClosureThree-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProjectClosureThree/Pods-ProjectClosureThree-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProjectClosureThree/Pods-ProjectClosureThree-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5B383EFD328F4E566D100CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProjectClosureThree-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		779F123E29CD24F200215B2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77D994E129CD261B002EA1BC /* Pizza.swift in Sources */,
 				779F124A29CD24F200215B2A /* ViewController.swift in Sources */,
 				779F124629CD24F200215B2A /* AppDelegate.swift in Sources */,
 				779F124829CD24F200215B2A /* SceneDelegate.swift in Sources */,
@@ -283,6 +355,7 @@
 		};
 		779F125729CD24F300215B2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6AAF6482CD740E3C77CF32A /* Pods-ProjectClosureThree.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +374,7 @@
 		};
 		779F125829CD24F300215B2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48EF717F96C5623375D5C7D6 /* Pods-ProjectClosureThree.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
